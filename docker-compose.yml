@@ -40,7 +40,7 @@ services:
         ipv4_address: 172.16.238.10
 
   php:
-    image: php:8.1-fpm-alpine
+    image: php:8.1
     container_name: php
     restart: always
     volumes:
